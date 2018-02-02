@@ -13,16 +13,16 @@ import java.util.Scanner;
  */
 public class Boletin52 {
     Scanner e= new Scanner(System.in);
-    short g,b;
+    short a,b;
     public void calculo(){
         System.out.println("Poña o primeiro numero");
-        g=e.nextShort();
+        a=e.nextShort();
         System.out.println("Poña o segundo numero");
         b=e.nextShort();
-    System.out.println(g+b);
+    System.out.println(a+b);
         
-    if(g>=b){
-    System.out.println(g-b);
+    if(a>=b){
+    System.out.println(a-b);
 }
     }
      public static void main(String[] args) {
